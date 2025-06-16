@@ -1,0 +1,24 @@
+.cards{
+    max-width: 400px;
+    max-height:300px;
+    justify-content: center;
+    border-radius:10px;
+    border: 2px solid lightgray;
+}
+
+.header {
+    height: 3em;
+    background-color:rgb(137, 141, 145);
+    opacity:0.5
+}
+
+.footer{
+    height: 3em;
+    background-color:rgb(106, 114, 121);
+    opacity:0.5
+}
+
+.content{
+ min-height: 10em;
+}
+
