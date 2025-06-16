@@ -1,6 +1,9 @@
 {
   "name": "my-library",
   "version": "0.0.1",
+  "scripts": {
+    "build": "ng-packagr -p ng-package.json"
+  },
   "peerDependencies": {
     "@angular/common": "^20.0.0",
     "@angular/core": "^20.0.0"
