@@ -4,12 +4,18 @@
     justify-content: center;
     border-radius:10px;
     border: 2px solid lightgray;
+    position:relative;
+      
 }
 
 .header {
     height: 3em;
-    background-color:rgb(137, 141, 145);
+    background-color:rgba(137, 141, 145);
     opacity:0.5
+}
+
+.header:hover{
+background-color:rgb(106, 114, 121);
 }
 
 .footer{

@@ -13,7 +13,7 @@ import { CommonModule } from '@angular/common';
     <lib-my-button></lib-my-button>
     <button (click)="addCard()">Add Card</button>
     <div *ngFor="let card of cards">
-      <app-practice></app-practice>
+      <app-practice [index]=card></app-practice>
     </div>
   `,
   styleUrl: './app.css'
